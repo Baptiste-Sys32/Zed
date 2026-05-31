@@ -21,6 +21,7 @@ members = [
     "crates/aws_http_client",
     "crates/bedrock",
     "crates/breadcrumbs",
+    "crates/brave_ui",
     "crates/buffer_diff",
     "crates/call",
     "crates/channel",
@@ -31,6 +32,7 @@ members = [
     "crates/cloud_api_types",
     "crates/cloud_llm_client",
     "crates/codestral",
+    "crates/codex_ui",
     "crates/collab",
     "crates/collab_ui",
     "crates/collections",
@@ -286,6 +288,7 @@ auto_update_ui = { path = "crates/auto_update_ui" }
 aws_http_client = { path = "crates/aws_http_client" }
 bedrock = { path = "crates/bedrock" }
 breadcrumbs = { path = "crates/breadcrumbs" }
+brave_ui = { path = "crates/brave_ui" }
 buffer_diff = { path = "crates/buffer_diff" }
 call = { path = "crates/call" }
 channel = { path = "crates/channel" }
@@ -451,6 +454,7 @@ sqlez_macros = { path = "crates/sqlez_macros" }
 streaming_diff = { path = "crates/streaming_diff" }
 sum_tree = { path = "crates/sum_tree" }
 codestral = { path = "crates/codestral" }
+codex_ui = { path = "crates/codex_ui" }
 system_specs = { path = "crates/system_specs" }
 syntax_theme = { path = "crates/syntax_theme" }
 tab_switcher = { path = "crates/tab_switcher" }

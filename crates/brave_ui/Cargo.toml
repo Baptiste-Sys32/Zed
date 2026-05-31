@@ -1,0 +1,19 @@
+[package]
+name = "brave_ui"
+version = "0.1.0"
+edition.workspace = true
+publish.workspace = true
+license = "GPL-3.0-or-later"
+
+[lints]
+workspace = true
+
+[lib]
+path = "src/brave_ui.rs"
+doctest = false
+
+[dependencies]
+gpui.workspace = true
+paths.workspace = true
+ui.workspace = true
+workspace.workspace = true

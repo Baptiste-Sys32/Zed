@@ -49,6 +49,7 @@ pub enum IconName {
     Bitbucket,
     Blocks,
     Bookmark,
+    Brave,
     BoltFilled,
     BoltOutlined,
     Book,

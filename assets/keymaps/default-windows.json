@@ -250,6 +250,12 @@
     },
   },
   {
+    "context": "CodexPanel",
+    "bindings": {
+      "ctrl-alt-p": "codex::ToggleAccountSelector"
+    }
+  },
+  {
     "context": "AcpThread > ModeSelector",
     "bindings": {
       "ctrl-enter": "menu::Confirm",

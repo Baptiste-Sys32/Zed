@@ -547,6 +547,7 @@ pub fn initialize_workspace(app_state: Arc<AppState>, cx: &mut App) {
                 edit_prediction_menu_handle.toggle(window, cx);
             }
         });
+        let brave_ui = cx.new(|_| brave_ui::BraveStatusButton::new());
 
         let search_button = cx.new(|_| search::search_status_button::SearchButton::new());
         let diagnostic_summary =
@@ -590,6 +591,7 @@ pub fn initialize_workspace(app_state: Arc<AppState>, cx: &mut App) {
             status_bar.add_left_item(merge_conflict_indicator, window, cx);
             status_bar.add_left_item(activity_indicator, window, cx);
             status_bar.add_right_item(edit_prediction_ui, window, cx);
+            status_bar.add_right_item(brave_ui, window, cx);
             status_bar.add_right_item(active_buffer_encoding, window, cx);
             status_bar.add_right_item(active_buffer_language, window, cx);
             status_bar.add_right_item(active_toolchain_language, window, cx);
