@@ -1,5 +1,7 @@
 # Zed (Custom Build)
 
+Abandoned, no updates planned. Kept for reference.
+
 This is a custom branch of [Zed](https://github.com/zed-industries/zed) maintained by [Baptiste-Sys32](https://github.com/Baptiste-Sys32).
 
 It integrates custom user interface components and extensions tailored for experimental features:
